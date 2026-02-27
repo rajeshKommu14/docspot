@@ -1,0 +1,6 @@
+SECRET_KEY = "docspot_super_secret_key_2026_very_secure_12345"
+SQLALCHEMY_DATABASE_URI = "sqlite:///database.db"
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+# MUST be at least 32+ characters
+JWT_SECRET_KEY = "THIS_IS_A_VERY_LONG_SECRET_KEY_FOR_JWT_SECURITY_2026_DOCSPOT"
